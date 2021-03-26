@@ -1,0 +1,7 @@
+FROM ubuntu:18.04
+
+RUN apt update \
+ && apt install git -y
+
+# TODO: Install dependencies and exit
+# && wax_build.sh -y -i /tmp -e
